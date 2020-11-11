@@ -15,7 +15,7 @@ class App extends Component {
 
     render() {
     	return(
-    		<div id="root">
+    		<div id="main">
 				<button id="click" onClick={this.showPara}>Click to see text</button>
 				{this.state.show?
 				(<p id="para">Hello, I've learnt to use the full-stack evaluatsion tool. This makes me so happy</p>)
