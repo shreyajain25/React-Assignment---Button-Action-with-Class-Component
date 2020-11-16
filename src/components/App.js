@@ -18,7 +18,7 @@ class App extends Component {
     		<div id="main">
 				<button id="click" onClick={this.showPara}>Click to see text</button>
 				{this.state.ParaShow?
-				(<p id="para">Hello, I've learnt to use the full-stack evaluatsion tool. This makes me so happy</p>)
+				<p id="para">Hello, I've learnt to use the full-stack evaluatsion tool. This makes me so happy</p>
 				:null}
     		</div>
     	);
